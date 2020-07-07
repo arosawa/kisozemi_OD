@@ -1,6 +1,13 @@
 git clone https://github.com/arosawa/arosawa.github.io
 
+git init
 git add --all
-git commit -m "Initial commit"
+git commit -m “2020基礎ゼミのデータ類”
 
-git push -u website master
+git remote add origin https://github.com/arosawa/kisozemi_OD.git
+git push -u origin master
+
+
+git add .
+git commit -m "Delete Directory"
+git push -u origin master
